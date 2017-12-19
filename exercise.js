@@ -61,5 +61,20 @@ for ( i = 3; i <= 15; i++) {
 var containers = ['purse', 'wallet', 'backpack'];
 
 for (container = 0; container < containers.length; container++) {
-  console.log(containers[container]);
+  //console.log(containers[container]);
 }
+
+
+var hello_world = function() {
+  console.log('Hello World');
+}
+
+//hello_world()
+
+
+var add = function(x, y) {
+  var amount = x + y
+  return amount
+}
+
+console.log(add(5, 10));
